@@ -89,15 +89,6 @@ const FooterSection = () => {
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
         </div>
     );
 };

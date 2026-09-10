@@ -9,7 +9,13 @@ const Navbar = ({ coin }: coinProps) => {
     return (
         <div>
             <nav className="font-['Gill_Sans','Gill_Sans_MT',Calibri,'Trebuchet_MS',sans-serif] flex w-[88%] mx-auto items-center justify-between py-4">
-                <img src={logo} alt="" />
+                <div className='flex items-center gap-4'>
+                    <img src={logo} alt="logo" className='w-16 h-16 md:w- md:h- object-contain' />
+                    <h1 className='text-4xl md:text-4xl font-black tracking-tight leading-none'>
+                        <span className='text-slate-900'>BPL-</span>
+                        <span className='bg-linear-to-r from-[#009A4E] to-[#E31E24] bg-clip-text text-transparent'>DraftZone</span>
+                    </h1>
+                </div>
 
                 <ul className="flex list-none items-center">
                     <li>
