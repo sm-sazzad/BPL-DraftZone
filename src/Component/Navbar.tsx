@@ -1,7 +1,11 @@
 import { TbCoinFilled } from 'react-icons/tb';
 import logo from '../assets/logo.png';
 
-const Navbar = () => {
+interface coinProps {
+    coin: number
+}
+
+const Navbar = ({ coin }: coinProps) => {
     return (
         <div>
             <nav className="font-['Gill_Sans','Gill_Sans_MT',Calibri,'Trebuchet_MS',sans-serif] flex w-[88%] mx-auto items-center justify-between py-4">
@@ -44,8 +48,8 @@ const Navbar = () => {
                         </a>
                     </li>
 
-                    <span className="ml-2.5 rounded-[10px] border-2 border-black px-4 py-1.25 flex items-center gap-1">
-                        Coin<TbCoinFilled className='text-yellow-400 text-[20px]' />
+                    <span className="ml-2.5 rounded-[10px]  text-white px-4 py-1.25 flex items-center gap-1 font-semibold bg-linear-to-r from-[#ff8a00] to-[#e52e71]">
+                        {coin}<TbCoinFilled className='text-yellow-400 text-[20px]' />
                     </span>
                 </ul>
             </nav>

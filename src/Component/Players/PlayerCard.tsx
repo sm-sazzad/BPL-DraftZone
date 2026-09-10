@@ -1,10 +1,42 @@
+import { useState, type Dispatch, type SetStateAction } from "react";
 import type { PlayersType } from "../../Type";
+import { Bounce, toast } from "react-toastify";
 
 interface PlayerCardProps {
-    player: PlayersType;
+    player: PlayersType,
+    coin: number,
+    setCoin: Dispatch<SetStateAction<number>>
+    selectedPlayers: PlayersType[];
+    setSelectedPlayers: Dispatch<SetStateAction<PlayersType[]>>
 }
 
-const PlayerCard = ({ player }: PlayerCardProps) => {
+
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }: PlayerCardProps) => {
+
+
+    const [isSelected, setIsSelected] = useState<boolean>(false);
+
+
+    const handleSelectButton = (player: PlayersType) => {
+        if (coin >= player.Price) {
+            setCoin(coin - player.Price)
+            toast.success(`${player.PlayerName} Succesfully Selected`, {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                transition: Bounce,
+            })
+        }
+        else toast.error(`Insufficient Balance`);
+
+        setSelectedPlayers([...selectedPlayers, player]);
+        setIsSelected(true);
+    }
     return (
         <div className="group card bg-white w-full max-w- rounded- shadow-[0_10px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 overflow-hidden hover:shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] hover:-translate-y-2 transition-all duration-500">
 
@@ -54,7 +86,9 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
                         <p className="text- text-gray-400 font-bold uppercase tracking-widest">Price</p>
                         <h3 className="text-xl font-black text-gray-900">${player.Price}</h3>
                     </div>
-                    <button className="btn bg-gray-900 hover:bg-black text-white rounded-full px-7 border-none shadow-lg shadow-gray-900/20 group-hover:bg-violet-600 transition-colors duration-300">
+                    <button onClick={() => handleSelectButton(player)}
+                        disabled={isSelected}
+                        className={`${isSelected ? 'bg-gray-500 text-white' : 'bg-gray-900 group-hover:bg-violet-600'} btn  hover:bg-black text-white rounded-full px-7 border-none shadow-lg shadow-gray-900/20  transition-colors duration-300`}>
                         Choose Player
                     </button>
                 </div>

@@ -1,15 +1,26 @@
-import { use } from "react";
+import { use, useState, type Dispatch, type SetStateAction } from "react";
 import type { PlayersType } from "../../Type";
 import AvailablePlayers from "./AvailablePlayers";
+import SelectedPlayers from "./SelectedPlayers";
 
 export interface PlayerPromiseProps {
-    playerPromise: Promise<PlayersType[]>
+    playerPromise: Promise<PlayersType[]>,
+    coin: number,
+    setCoin: Dispatch<SetStateAction<number>>
 }
 
 
-const Players = ({ playerPromise }: PlayerPromiseProps) => {
+const Players = ({ playerPromise, coin, setCoin }: PlayerPromiseProps) => {
     const players = use(playerPromise)
-    console.log(players)
+
+
+    const [selectedPlayers, setSelectedPlayers] = useState<PlayersType[]>([])
+
+    const [buttonType, setButtonType] = useState<"available" | "selected">("available");
+
+    const handleButtonType = (type: "available" | "selected") => {
+        setButtonType(type);
+    }
     return (
         // <div className="mx-auto w-[90%] max-w-7xl">
         //     <div className="my-10 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
@@ -44,26 +55,45 @@ const Players = ({ playerPromise }: PlayerPromiseProps) => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-6 my-10 bg-white/80 backdrop-blur-md py-6 md:p-8 rounded- shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-gray-100">
 
                 <div>
-                    <h1 className="text-3xl md:text-4xl font-black tracking-tight text-gray-900">
-                        Available <span className="text-transparent bg-clip-text bg-linear-to-r from-violet-600 to-indigo-600">Players</span>
-                    </h1>
-                    <p className="text-gray-500 mt-2 font-medium">Choose your best 11 to win the match</p>
+                    {
+                        buttonType === "available" ?
+                            (
+                                <div>
+                                    <h1 className="text-3xl md:text-4xl font-black tracking-tight text-gray-900">
+                                        Available <span className="text-transparent bg-clip-text bg-linear-to-r from-violet-600 to-indigo-600">Players</span>
+                                    </h1>
+                                    <p className="text-gray-500 mt-2 font-medium">Choose your best 11 to win the match</p>
+                                </div>
+                            )
+                            : (
+                                <h1 className="text-3xl md:text-4xl font-black tracking-tight text-gray-900">
+                                    Selected <span className="text-transparent bg-clip-text bg-linear-to-r from-violet-600 to-indigo-600">Players</span>
+                                </h1>
+                            )
+                    }
                 </div>
 
                 {/* Toggle Buttons */}
                 <div className="flex items-center p-1.5 bg-gray-100 rounded-full">
-                    <button className="btn rounded-full px-8 border-none bg-white text-gray-900 shadow-md shadow-gray-200 font-bold hover:bg-white">
+                    <button onClick={() => handleButtonType("available")}
+                        className={`cursor-pointer rounded-full px-8  ${buttonType === "available" ? "bg-white text-gray-900 shadow-md shadow-gray-200 font-bold btn" : ""} `} >
                         Available
                     </button>
-                    <button className="btn rounded-full px-8 btn-ghost text-gray-500 font-semibold hover:bg-transparent">
-                        Selected <span className="ml-2 bg-gray-900 text-white text-xs px-2.5 py-1 rounded-full">0</span>
+                    <button
+                        onClick={() => handleButtonType("selected")}
+                        className={`cursor-pointer rounded-full px-8  ${buttonType === "selected" ? "bg-white text-gray-900 shadow-md shadow-gray-200 font-bold btn" : ""}`}>
+                        Selected <span className="ml-2 bg-gray-900 text-white text-xs px-2.5 py-1 rounded-full">{selectedPlayers.length}</span>
                     </button>
                 </div>
             </div>
 
             {/* Players Grid */}
             <div className="pb-20">
-                <AvailablePlayers players={players} />
+                {
+                    buttonType === "available" ?
+                        <AvailablePlayers players={players} coin={coin} setCoin={setCoin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} /> :
+                        <SelectedPlayers coin={coin} setCoin={setCoin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setButtonType={setButtonType} />
+                }
             </div>
         </div>
     );

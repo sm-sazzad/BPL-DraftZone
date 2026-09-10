@@ -1,7 +1,7 @@
 [
     {
         "PlayerName": "Shakib Al Hasan",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shakib_Al_Hasan_(1).jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3782.png",
         "origin": "Bangladesh",
         "playerType": "All-Rounder",
         "bowlingStyle": "Left-arm Orthodox",
@@ -10,7 +10,7 @@
     },
     {
         "PlayerName": "Virat Kohli",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Virat_Kohli.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3993.png",
         "origin": "India",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -19,7 +19,7 @@
     },
     {
         "PlayerName": "Babar Azam",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Babar_Azam.png",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/59429.png",
         "origin": "Pakistan",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -28,7 +28,7 @@
     },
     {
         "PlayerName": "Rashid Khan",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rashid_Khan.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/65748.png",
         "origin": "Afghanistan",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Leg Break",
@@ -37,7 +37,7 @@
     },
     {
         "PlayerName": "Jos Buttler",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jos_buttler.JPG",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/9782.png",
         "origin": "England",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -46,7 +46,7 @@
     },
     {
         "PlayerName": "Ben Stokes",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ben_Stokes.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/10130.png",
         "origin": "England",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Fast Medium",
@@ -55,7 +55,7 @@
     },
     {
         "PlayerName": "Kane Williamson",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kane_Williamson.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/4330.png",
         "origin": "New Zealand",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -64,7 +64,7 @@
     },
     {
         "PlayerName": "David Warner",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/David_Warner.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/5380.png",
         "origin": "Australia",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Leg Break",
@@ -73,7 +73,7 @@
     },
     {
         "PlayerName": "Pat Cummins",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pat_Cummins.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/56964.png",
         "origin": "Australia",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Fast",
@@ -82,7 +82,7 @@
     },
     {
         "PlayerName": "Andre Russell",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Andre_Russell.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/12047.png",
         "origin": "West Indies",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Fast",
@@ -91,7 +91,7 @@
     },
     {
         "PlayerName": "Jasprit Bumrah",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jasprit_Bumrah.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/63755.png",
         "origin": "India",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Fast",
@@ -100,7 +100,7 @@
     },
     {
         "PlayerName": "Maheesh Theekshana",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maheesh.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/69274.png",
         "origin": "Sri Lanka",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Off Break",
@@ -109,7 +109,7 @@
     },
     {
         "PlayerName": "Mohammed Shami",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mohammed_Shami.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/28994.png",
         "origin": "India",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Fast",
@@ -118,7 +118,7 @@
     },
     {
         "PlayerName": "Mehidy Hasan Miraz",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mehidy_Hasan_Miraz_(1).jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/63875.png",
         "origin": "Bangladesh",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Off Break",
@@ -127,7 +127,7 @@
     },
     {
         "PlayerName": "Litton Das",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Liton_Das_(1).jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/63206.png",
         "origin": "Bangladesh",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -136,7 +136,7 @@
     },
     {
         "PlayerName": "Rishabh Pant",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishabh_Pant.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/65756.png",
         "origin": "India",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -145,7 +145,7 @@
     },
     {
         "PlayerName": "Yuzvendra Chahal",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yuzvendra_Chahal.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/9844.png",
         "origin": "India",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Leg Break",
@@ -154,7 +154,7 @@
     },
     {
         "PlayerName": "Hardik Pandya",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hardik_Pandya_in_PMO_New_Delhi.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/63751.png",
         "origin": "India",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Fast Medium",
@@ -163,7 +163,7 @@
     },
     {
         "PlayerName": "Ruturaj Gaikwad",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ruturaj_Gaikwad.jpeg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/66584.png",
         "origin": "India",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -172,7 +172,7 @@
     },
     {
         "PlayerName": "Shubman Gill",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shubman_Gill.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/66818.png",
         "origin": "India",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -181,7 +181,7 @@
     },
     {
         "PlayerName": "Ishan Kishan",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ishan_Kishan.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/64712.png",
         "origin": "India",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -190,7 +190,7 @@
     },
     {
         "PlayerName": "Lockie Ferguson",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lockie_Ferguson.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/63719.png",
         "origin": "New Zealand",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Fast",
@@ -199,7 +199,7 @@
     },
     {
         "PlayerName": "Mark Wood",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mark_Wood_cricketer.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/57871.png",
         "origin": "England",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Fast",
@@ -208,7 +208,7 @@
     },
     {
         "PlayerName": "Phil Salt",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2_02_Phil_Salt.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/65632.png",
         "origin": "England",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -226,7 +226,7 @@
     },
     {
         "PlayerName": "Moeen Ali",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Moeen_Ali_Worcestershire_Cricket.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/4688.png",
         "origin": "England",
         "playerType": "All-Rounder",
         "bowlingStyle": "Left-arm Orthodox",
@@ -235,7 +235,7 @@
     },
     {
         "PlayerName": "Dwayne Bravo",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dwayne_Bravo.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3556.png",
         "origin": "West Indies",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Medium Fast",
@@ -244,7 +244,7 @@
     },
     {
         "PlayerName": "Shai Hope",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shai_Hope.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/63797.png",
         "origin": "West Indies",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -253,7 +253,7 @@
     },
     {
         "PlayerName": "Adil Rashid",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Adil_rashid.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/4661.png",
         "origin": "England",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Leg Break",
@@ -262,7 +262,7 @@
     },
     {
         "PlayerName": "Sunil Narine",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sunil_Narine.jpg",
+        "playerimg": "https://www.kkr.in/static-assets/images/players/11229.png?v=112.14",
         "origin": "West Indies",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Off Break",
@@ -271,7 +271,7 @@
     },
     {
         "PlayerName": "Kieron Pollard",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kieron_Pollard.jpg",
+        "playerimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwHcjGonLpAg7zB_0u7Ic3CeQx7HP1Aa-32YCaVrSNdPr--ViY4bNx2dQ1iza4t7Swe1YabmFbrPod20KqXnI-ZViY_Kj5-ul9jSZX8Q&s=10",
         "origin": "West Indies",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Medium",
@@ -280,7 +280,7 @@
     },
     {
         "PlayerName": "Joe Root",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Joe_root.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/10129.png",
         "origin": "England",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -289,7 +289,7 @@
     },
     {
         "PlayerName": "Jonny Bairstow",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jonny_Bairstow.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/19394.png",
         "origin": "England",
         "playerType": "Wicket-Keeper Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -298,7 +298,7 @@
     },
     {
         "PlayerName": "Mujeeb Ur Rahman",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mujeeb_Ur_Rahman_celebrating.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/67540.png",
         "origin": "Afghanistan",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Off Break",
@@ -307,7 +307,7 @@
     },
     {
         "PlayerName": "Rohit Sharma",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rohit_Sharma.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3852.png",
         "origin": "India",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Off Break",
@@ -334,7 +334,7 @@
     },
     {
         "PlayerName": "Yuvraj Singh",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yuvraj_Singh.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3314.png",
         "origin": "India",
         "playerType": "All-Rounder",
         "bowlingStyle": "Slow Left-arm Orthodox",
@@ -343,7 +343,7 @@
     },
     {
         "PlayerName": "Shadab Khan",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shadab_Khan.png",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/65739.png",
         "origin": "Pakistan",
         "playerType": "All-Rounder",
         "bowlingStyle": "Right-arm Leg Break",
@@ -361,7 +361,7 @@
     },
     {
         "PlayerName": "Mohammad Amir",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mohammad_Amir.png",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/7768.png",
         "origin": "Pakistan",
         "playerType": "Bowler",
         "bowlingStyle": "Left-arm Fast",
@@ -370,7 +370,7 @@
     },
     {
         "PlayerName": "Muttiah Muralitharan",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Muttiah_Muralitharan.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size30-webp/prd/gif106w7u9omxymcxfss",
         "origin": "Sri Lanka",
         "playerType": "Bowler",
         "bowlingStyle": "Right-arm Off Break",
@@ -379,7 +379,7 @@
     },
     {
         "PlayerName": "Tamim Iqbal",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tamim_Iqbal_Khan.jpg",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3903.png",
         "origin": "Bangladesh",
         "playerType": "Batsman",
         "bowlingStyle": "Right-arm Medium",
@@ -388,7 +388,7 @@
     },
     {
         "PlayerName": "Shaheen Shah Afridi",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shaheen_Shah_Afridi.png",
+        "playerimg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/66833.png",
         "origin": "Pakistan",
         "playerType": "Bowler",
         "bowlingStyle": "Left-arm Fast",
@@ -403,41 +403,5 @@
         "bowlingStyle": "Right-arm Off Break",
         "battingStyle": "Right-handed",
         "Price": 129
-    },
-    {
-        "PlayerName": "Kumar Sangakkara",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sangakkara.jpg",
-        "origin": "Sri Lanka",
-        "playerType": "Wicket-Keeper Batsman",
-        "bowlingStyle": "Right-arm Medium",
-        "battingStyle": "Left-handed",
-        "Price": 214
-    },
-    {
-        "PlayerName": "Sachin Tendulkar",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sachin_Tendulkar.jpg",
-        "origin": "India",
-        "playerType": "Batsman",
-        "bowlingStyle": "Right-arm Off Break",
-        "battingStyle": "Right-handed",
-        "Price": 357
-    },
-    {
-        "PlayerName": "VVS Laxman",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/VVS_Laxman.jpg",
-        "origin": "India",
-        "playerType": "Batsman",
-        "bowlingStyle": "Right-arm Off Break",
-        "battingStyle": "Right-handed",
-        "Price": 100
-    },
-    {
-        "PlayerName": "Rahul Dravid",
-        "playerimg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rahul_Dravid.jpg",
-        "origin": "India",
-        "playerType": "Batsman",
-        "bowlingStyle": "Right-arm Off Break",
-        "battingStyle": "Right-handed",
-        "Price": 157
     }
 ]
